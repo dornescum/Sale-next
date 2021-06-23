@@ -1,4 +1,4 @@
-import logo from '../public/img/logo.svg';
+import logo from '../../public/img/logo.svg';
 import Image from "next/image";
 import {Nav, Navbar} from 'react-bootstrap';
 import classes from './Navbar.module.scss';
@@ -44,12 +44,11 @@ const TheNavbar=()=>{
     ]
 
     return <>
-        <Navbar expand="lg" className='me-navbar'>
+        <Navbar expand="lg" className={classes.meNavbar} style={{background:"$dark"}}>
            {/*Fixme*/}
             <Navbar.Brand href="/" className="brand">
                 <Image src={logo} alt="" className={classes.AppLogo} style={{paddingRight:"10px"}} />Burnitei 60-62
             </Navbar.Brand>
-
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
