@@ -1,0 +1,14 @@
+@import "styles/module/colors.module";
+
+.wrapper{
+  margin:1rem;
+  padding:1rem;
+  @media (max-width: $tablet) {
+    padding:0 2rem;
+  }
+  @media (max-width: $sm) {
+    padding:0;
+    margin: 0;
+  }
+
+}
