@@ -3,6 +3,7 @@ import path from 'path';
 import ContentWrapper from "../../components/ContentWrapper/ContentWrapper";
 import BucatarieInfo from "./BucatarieInfo";
 import {Card, CardGroup} from "react-bootstrap";
+import Image from "next/image";
 
 export const getStaticProps = async () => {
     const filePath = path.join(process.cwd(), 'data', 'max-data.json')
@@ -25,13 +26,14 @@ const Bucatarie = (props) => {
 
         <CardGroup className="home-card">
             {filteredData.map((item) => {
-                console.log(item)
                 const {id, img, title, desc} = item;
                 return <div className="col-lg-6 col-sm-6 py-1" key={id}>
                     <Card className="home-card-item">
-                        <Card.Img variant="top"
-                                  src={img} className='img-general'
-                        />
+                        {/*<Card.Img variant="top"*/}
+                        {/*          src={img} className='img-general'*/}
+                        {/*/>*/}
+                        <Image src={img} width={650} height={650} alt={title}/>
+
                         <Card.Body>
                             <Card.Title>{title}</Card.Title>
                             <Card.Text>

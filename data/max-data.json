@@ -37,7 +37,7 @@
       "title": "Balcon",
       "path": "/",
       "desc": "Poți să bei in LINISTE o cafea",
-      "img": "/img/balcon/Balcon-1-bg.webp",
+      "img": "/img/balcon/Balcon-1.webp",
       "id": 5
     },
     {
@@ -125,7 +125,7 @@
       "title": "Dormitor",
       "path": "/",
       "desc": "",
-      "img": "/img/dormitor/Dormitor-2-bg.webp",
+      "img": "/img/dormitor/Dormitor-2.webp",
       "id": 16
     },
     {
