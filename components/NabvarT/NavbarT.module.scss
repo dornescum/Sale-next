@@ -1,0 +1,11 @@
+@import "styles/module/colors.module";
+
+.navbar {
+  background-color: $dark;
+  padding: 2rem 0;
+  .left{}
+  .right{
+    .toggle{}
+  }
+  .sidebar{}
+}

@@ -4,6 +4,7 @@ import Link from "next/link";
 import {Nav, Navbar} from 'react-bootstrap';
 import classes from './Navbar.module.scss';
 // import classes from "../../styles/module/navbar.module.scss";
+import {LinkContainer} from 'react-bootstrap';
 
 const TheNavbar=()=>{
     const links = [
@@ -58,10 +59,9 @@ const TheNavbar=()=>{
                         return     <Nav.Item key={item.id}>
                             {/*fara passHref nu merge*/}
                             <Link href={item.path} passHref>
-                            <Nav.Link >{item.name}</Nav.Link>
+                            <Nav.Link>{item.name}</Nav.Link>
                             </Link>
                         </Nav.Item>
-
                     })}
                 </Nav>
             </Navbar.Collapse>

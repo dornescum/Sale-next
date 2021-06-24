@@ -196,9 +196,18 @@
       "name": "Parcare",
       "title": "Parcare",
       "path": "/",
-      "desc": "dsa dsadas dasd asdasd asdas asdasdas",
-      "img": "/img/2.jpg",
+      "desc": "Parcare langa scara blocului",
+      "img": "/img/parcare/parcare-1.webp",
       "id": 21
+    },
+    {
+      "name": "Parcare",
+      "title": "Parcare",
+      "path": "/",
+      "desc": "Sistem nou de blocare a parcari",
+      "img": "/img/parcare/parcare-2.webp",
+      "id": 22
     }
+
   ]
 }
