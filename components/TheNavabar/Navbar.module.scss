@@ -1,25 +1,32 @@
-@import "../../styles/module/colors";
+@import "../../styles/module/colors.module";
 
-.me-navbar{
+.navmihai{
   background-color: $dark !important;
   color: red;
 }
-.App-logo {
-  height: 2rem;
-  /*pointer-events: none;*/
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
+
+//.App-logo {
+//  height: 2rem;
+//  /*pointer-events: none;*/
+//}
+//
+//@media (prefers-reduced-motion: no-preference) {
+//  .App-logo {
+//    animation: App-logo-spin infinite 20s linear;
+//  }
+//}
+//
+//@keyframes App-logo-spin {
+//  from {
+//    transform: rotate(0deg);
+//  }
+//  to {
+//    transform: rotate(360deg);
+//  }
+//}
