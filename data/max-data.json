@@ -173,7 +173,7 @@
       "title": "Camera de zi",
       "path": "/",
       "desc": "Televizor Sony 4k / 123inch (2020)",
-      "img": "/img/living/Living-2.webp",
+      "img": "/img/living/Living-2-bg.webp",
       "id": 18
     },
     {
@@ -181,7 +181,7 @@
       "title": "Camera de zi",
       "path": "/",
       "desc": "Masa solida cu 2 scaune asortate, Ikea, loc ideal pt servit masa.\n",
-      "img": "/img/living/Living-3.webp",
+      "img": "/img/living/Living-3-bg.webp",
       "id": 19
     },
     {
@@ -189,7 +189,7 @@
       "title": "Camera de zi",
       "path": "/",
       "desc": "Canapea fixa 2 locuri, completeaza spatiul pt vizionat filme.",
-      "img": "/img/living/Living-4.webp",
+      "img": "/img/living/Living-4-bg.webp",
       "id": 20
     },
     {
@@ -207,6 +207,12 @@
       "desc": "Sistem nou de blocare a parcari",
       "img": "/img/parcare/parcare-2.webp",
       "id": 22
+    },
+    { "title": "Eva",
+      "name": "Eva",
+      "img": "/img/Eva.webp",
+      "id": 23,
+      "desc":"Are 2 camere si este situat intr un bloc construit in 2011, situat intr o zonă linistită din Sectorul 3, cu multiple puncte de interes precum scoli, gradinite, supermarketuri si mijloace de transport in comun in apropire. Stația de metrou 1 Decembrie este la distanta de maxim 10 min de mers pe jos, 900 m. \u2028 Apartamentul este amenajat modern, complet echipat, inclusive centrala termica proprie, fiind contorizat independent la toate utilitatile."
     }
 
   ]
