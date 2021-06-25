@@ -1,5 +1,5 @@
 @import "../../styles/module/colors.module";
-
+@import "styles/module/mixins";
 
 .info{
   .puppy{
@@ -9,10 +9,45 @@
     img {
       height: 12rem;
       width: 12rem;
+      border-radius: 50%;
       &:hover{
         animation: eva 2s linear infinite;
         transition: var(--transition);
       }
+      @media (max-width: $sm) {
+        height: 5rem;
+        width: 5rem;
+      }
+    }
+  }
+  .hometitle{
+    //background-color: red;
+    @media (max-width: $tablet) {
+      font-size: 1rem;
+      padding-top: 1rem;
+    }
+  }
+  .presentation{
+    //background-color: red;
+    @media (max-width: $tablet) {
+      display: none;
+    }
+  }
+  //.mobiletitle{
+  //  display: none;
+  //  padding: .2rem .4rem;
+  //  margin: .1rem;
+  //  font-size: 1.5rem;
+  //  @media (max-width: $sm) {
+  //    display: block;
+  //  }
+  //}
+  .mobilepresentation{
+    display: none;
+    padding: .9rem .6rem;
+    margin: .3rem;
+    @media (max-width: $sm) {
+      display: block;
     }
   }
 }
