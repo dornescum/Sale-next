@@ -7,6 +7,8 @@ import React, {useState} from "react";
 // import './navbarT.module.css';
 import { FaBars} from "react-icons/fa";
 import { HiOutlineX } from "react-icons/hi";
+import { GiFruitTree } from "react-icons/hi";
+
 
 
 const NavbarT = () => {
@@ -23,17 +25,17 @@ const NavbarT = () => {
                     <FaBars/>
                 </button>
             <Image src={logo} className='logo' />
-
+            <Link href='/'><p className='link-route'>Burnitei 60-62</p></Link>
         </div>
         <div className='right'>
             <ul className='links'>
-                <li className='link'><Link href='/'>Acasa</Link></li>
-                <li className='link'><Link href='/Living'>Camera de zi</Link></li>
-                <li className='link'><Link href='/Dormitor'>Dormitor</Link></li>
-                <li className='link'><Link href='/Bucatarie'>Bucatarie</Link></li>
-                <li className='link'><Link href='/Balcon'>Balcon</Link></li>
-                <li className='link'><Link href='/Baie'>Baie</Link></li>
-                <li className='link'><Link href='/Parcare'>Parcare</Link></li>
+                <li className='link'><Link href='/'><p className='link-route'>Acasa</p></Link></li>
+                <li className='link'><Link href='/Living'><p className='link-route'>Camera de zi</p></Link></li>
+                <li className='link'><Link href='/Dormitor'><p className='link-route'>Dormitor</p></Link></li>
+                <li className='link'><Link href='/Bucatarie'><p className='link-route'>Bucatarie</p></Link></li>
+                <li className='link'><Link href='/Balcon'><p className='link-route'>Balcon</p></Link></li>
+                <li className='link'><Link href='/Baie'><p className='link-route'>Baie</p></Link></li>
+                <li className='link'><Link href='/Parcare'><p className='link-route'>Parcare</p></Link></li>
 
             </ul>
         </div>
@@ -46,9 +48,7 @@ const NavbarT = () => {
                     </div>
                 {/*</div>*/}
             <ul className='sidelinks' onClick={showSidebar}>
-                <li className='sidelink'><Link href='/'>
-                   <p className='route'>Acasa</p>
-                </Link></li>
+                <li className='sidelink'><Link href='/'><p className='route'>Acasa</p></Link></li>
                 <li className='sidelink'><Link href='/Living'><p className='route'>Camera de zi</p></Link></li>
                 <li className='sidelink'><Link href='/Dormitor'><p className='route'>Dormitor</p></Link></li>
                 <li className='sidelink'><Link href='/Bucatarie'><p className='route'>Bucatarie</p></Link></li>
