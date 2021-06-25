@@ -1,0 +1,47 @@
+.navbarm{
+    background-color: #bf8fc6;
+    height: 4rem;
+    position: relative;
+    display: flex;
+
+}
+.logo{
+
+}
+#open{
+    display: none;
+}
+.left{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.right{
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    list-style-type: none;
+    padding-top: 1rem;
+}
+.link{
+    padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .right{
+        display: none;
+    }
+    #open{
+        display: block;
+    }
+    .logo{
+        display: none !important;
+    }
+}

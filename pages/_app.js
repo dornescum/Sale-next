@@ -1,6 +1,6 @@
 import Layout from "../components/Layout/Layout";
 
-import '../styles/globals.scss';
+import '../styles/globals.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
 // import '../styles/module/navbar.module.scss';

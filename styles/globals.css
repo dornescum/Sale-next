@@ -1,5 +1,7 @@
 /*@import "colors.module.scss";*/
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import "Navbar.css";
+@import "Sidebar.css";
 html,
 body {
   padding: 0;
@@ -18,3 +20,4 @@ a {
 * {
   box-sizing: border-box;
 }
+

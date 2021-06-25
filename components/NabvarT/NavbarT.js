@@ -1,23 +1,106 @@
-import classes from './NavbarT.module.scss';
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../../public/img/justify.svg";
+import logo from "../../public/img/logo.svg";
+// import { FaBars} from "react-icons/fa";
+// import { HiOutlineX } from "react-icons/hi";
+import React, {useState} from "react";
+// import './navbarT.module.css';
+import { FaBars} from "react-icons/fa";
+import { HiOutlineX } from "react-icons/hi";
 
-const NavbarT =()=>{
-    return (<div  className={classes.navbar}>
-        <div className={classes.left}>
-            <Image src={logo} alt=""  style={{paddingRight:"10px"}} />
-            <Link href='/' passHref>Burnitei 60-62</Link>
+
+const NavbarT = () => {
+    const [sidebar, setSidebar] = useState(false)
+
+    const showSidebar = () => {
+        console.log('click')
+        setSidebar(!sidebar)
+    }
+    // console.log(SidebarData)
+    return <div className="navbarm">
+        <div className='left'>
+                <button onClick={showSidebar} className="show-sidebar" id='open'>
+                    <FaBars/>
+                </button>
+            <Image src={logo} className='logo' />
+
         </div>
-            <nav className={sidebar ? 'menu active': 'menu'}>
-                <ul className={classes.right}>
-                    <li className={classes.toggle}></li>
-                </ul>
+        <div className='right'>
+            <ul className='links'>
+                <li className='link'><Link href='/'>Acasa</Link></li>
+                <li className='link'><Link href='/Living'>Camera de zi</Link></li>
+                <li className='link'><Link href='/Dormitor'>Acasa</Link></li>
+                <li className='link'><Link href='/Bucatarie'>Bucatarie</Link></li>
+                <li className='link'><Link href='/Balcon'>Balcon</Link></li>
+                <li className='link'><Link href='/Baie'>Baie</Link></li>
+                <li className='link'><Link href='/Parcare'>Parcare</Link></li>
 
-            </nav>
+            </ul>
+        </div>
+        <div className={sidebar ? "show":"sidebar"}>
+                {/*<div className={sidebar ? "show":"sidebar"}>*/}
+                    <div className='close'>
+                        <button onClick={showSidebar} className="show-sidebar">
+                            <HiOutlineX/>
+                        </button>
+                    </div>
+                {/*</div>*/}
+            <ul className='sidelinks' onClick={showSidebar}>
+                <li className='sidelink'><Link href='/'>Acasa</Link></li>
+                <li className='sidelink'><Link href='/Living'>Camera de zi</Link></li>
+                <li className='sidelink'><Link href='/Dormitor'>Acasa</Link></li>
+                <li className='sidelink'><Link href='/Bucatarie'>Bucatarie</Link></li>
+                <li className='sidelink'><Link href='/Balcon'>Balcon</Link></li>
+                <li className='sidelink'><Link href='/Baie'>Baie</Link></li>
+                <li className='sidelink'><Link href='/Parcare'>Parcare</Link></li>
+            </ul>
+        </div>
+
     </div>
-
-    )
 
 }
 export default NavbarT;
+ {/*<div className="nav-left">*/}
+ {/*    <button onClick={showSidebar} className="show-sidebar">*/}
+ {/*        X*/}
+ {/*    </button>*/}
+ {/*    <a href="">Mihai Dornescu</a>*/}
+ {/*    <div className={sidebar ? "side show":"side"}>*/}
+ {/*        <div className='close'>*/}
+ {/*            <button onClick={showSidebar} className="show-sidebar">*/}
+ {/*                X*/}
+ {/*            </button>*/}
+ {/*        </div>*/}
+
+ {/*        <ul onClick={showSidebar} className="sidebar-ul">*/}
+ {/*            <li><a href="">test1</a></li>*/}
+ {/*            <li><a href="">test1</a></li>*/}
+ {/*            <li><a href="">test1</a></li>*/}
+ {/*            <li><a href="">test1</a></li>*/}
+ {/*            <li><a href="">test1</a></li>*/}
+
+ {/*        </ul>*/}
+
+ {/*    </div>*/}
+ {/*</div>*/}
+ {/*<div className="nav-right">*/}
+ {/*    <ul className="ul-links">*/}
+ {/*        <li className="links">*/}
+ {/*            <a href="">home</a>*/}
+ {/*        </li>*/}
+ {/*        <li className="links">*/}
+ {/*            <a href="">home</a>*/}
+ {/*        </li>*/}
+ {/*        <li className="links">*/}
+ {/*            <a href="">home</a>*/}
+ {/*        </li>*/}
+ {/*        <li className="links">*/}
+ {/*            <a href="">home</a>*/}
+ {/*        </li>*/}
+ {/*        <li className="links">*/}
+ {/*            <a href="">home</a>*/}
+ {/*        </li>*/}
+
+
+ {/*    </ul>*/}
+ {/*</div>*/}
