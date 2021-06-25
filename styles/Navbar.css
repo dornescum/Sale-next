@@ -40,6 +40,11 @@
     }
     #open{
         display: block;
+        background: white;
+        border-radius: 5px;
+        outline: none;
+        padding: .2rem .6rem;
+        margin: .1rem;
     }
     .logo{
         display: none !important;

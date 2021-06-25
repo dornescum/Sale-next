@@ -29,7 +29,7 @@ const NavbarT = () => {
             <ul className='links'>
                 <li className='link'><Link href='/'>Acasa</Link></li>
                 <li className='link'><Link href='/Living'>Camera de zi</Link></li>
-                <li className='link'><Link href='/Dormitor'>Acasa</Link></li>
+                <li className='link'><Link href='/Dormitor'>Dormitor</Link></li>
                 <li className='link'><Link href='/Bucatarie'>Bucatarie</Link></li>
                 <li className='link'><Link href='/Balcon'>Balcon</Link></li>
                 <li className='link'><Link href='/Baie'>Baie</Link></li>
@@ -37,22 +37,24 @@ const NavbarT = () => {
 
             </ul>
         </div>
-        <div className={sidebar ? "show":"sidebar"}>
+        <div className={sidebar ? "show sidebar":"sidebar"}>
                 {/*<div className={sidebar ? "show":"sidebar"}>*/}
                     <div className='close'>
-                        <button onClick={showSidebar} className="show-sidebar">
+                        <button onClick={showSidebar} id='close'>
                             <HiOutlineX/>
                         </button>
                     </div>
                 {/*</div>*/}
             <ul className='sidelinks' onClick={showSidebar}>
-                <li className='sidelink'><Link href='/'>Acasa</Link></li>
-                <li className='sidelink'><Link href='/Living'>Camera de zi</Link></li>
-                <li className='sidelink'><Link href='/Dormitor'>Acasa</Link></li>
-                <li className='sidelink'><Link href='/Bucatarie'>Bucatarie</Link></li>
-                <li className='sidelink'><Link href='/Balcon'>Balcon</Link></li>
-                <li className='sidelink'><Link href='/Baie'>Baie</Link></li>
-                <li className='sidelink'><Link href='/Parcare'>Parcare</Link></li>
+                <li className='sidelink'><Link href='/'>
+                   <p className='route'>Acasa</p>
+                </Link></li>
+                <li className='sidelink'><Link href='/Living'><p className='route'>Camera de zi</p></Link></li>
+                <li className='sidelink'><Link href='/Dormitor'><p className='route'>Dormitor</p></Link></li>
+                <li className='sidelink'><Link href='/Bucatarie'><p className='route'>Bucatarie</p></Link></li>
+                <li className='sidelink'><Link href='/Balcon'><p className='route'>Balcon</p></Link></li>
+                <li className='sidelink'><Link href='/Baie'><p className='route'>Baie</p></Link></li>
+                <li className='sidelink'><Link href='/Parcare'><p className='route'>Parcare</p></Link></li>
             </ul>
         </div>
 

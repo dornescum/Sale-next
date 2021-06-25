@@ -1,6 +1,6 @@
 import TheNavbar from "../TheNavabar/TheNavbar";
 import NavbarT from "../NabvarT/NavbarT";
-import Sidebar from "../NabvarT/Sidebar";
+// import Sidebar from "../NabvarT/Sidebar";
 
 
 const Layout =(props)=>{
