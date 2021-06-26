@@ -40,7 +40,7 @@ const HomeCrad = () => {
                 return <div className="col-lg-6 col-xl-3 col-md-6 col-sm-6"  key={id}>
                     <Card className={classes.item}>
                         <Card.Img variant="top"
-                                  src={img}  width={350} height={320} layout='responsive'
+                                  src={img} alt='rooms'  width={350} height={320} layout='responsive'
                         />
                         <Card.Body>
                             <Card.Title>{title}</Card.Title>

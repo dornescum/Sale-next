@@ -12,7 +12,6 @@ const HOmeCaroussel = () => {
     return <Jumbotron fluid className={classes.carousel}>
         <Container>
             <Row>
-
                 <Col lg="3" md="6" xs='12'>
                     <div className={classes.carouselleft}>
                         <p id="test" >

@@ -12,6 +12,16 @@
   margin: .1rem;
   font-size: 1.2rem;
   animation: message 1s linear forwards;
+  @media (max-width: $tablet-bg) {
+    padding: .1rem;
+    margin: .2rem 0;
+    font-size: 1rem;
+
+  }
+  @media (max-width: $tablet) {
+    padding: 3.5rem 0;
+    margin: .2rem 0;
+  }
  @media (max-width: $sm) {
    padding: .2rem 0;
    margin: .2rem 0;
@@ -23,6 +33,10 @@
     margin:1.5rem 1rem;
     transition: $transition;
     cursor: pointer;
+    @media (max-width: $tablet-bg) {
+      padding:.4rem .2rem;
+      margin:  .2rem;
+    }
     @media (max-width: $sm) {
       padding:.4rem .2rem;
       margin:  .2rem;
@@ -31,5 +45,4 @@
       transform: scale(1.1);
     }
   }
-
 }
