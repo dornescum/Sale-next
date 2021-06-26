@@ -2,9 +2,14 @@ import Head from 'next/head';
 import Image from 'next/image';
 // import TheNavbar from "../components/TheNavbar";
 import HomeInfo from "./Home/HomeInfo";
+import HOmeCaroussel from "./Home/HOmeCaroussel";
+import HomeCrad from "./Home/HomeCrad";
+import HomeConditional from "./Home/HomeConditional";
 import ContentWrapper from "../components/ContentWrapper/ContentWrapper";
 
 import classes from '../styles/Home.module.scss';
+import style from '../pages/Home/HOmeCaroussel.module.scss';
+
 
 export default function Home() {
     return (
@@ -18,7 +23,9 @@ export default function Home() {
             {/*<TheNavbar />*/}
             <main className={classes.main}>
                 <HomeInfo/>
-
+                <HOmeCaroussel/>
+                <HomeCrad/>
+                <HomeConditional />
 
             </main>
 

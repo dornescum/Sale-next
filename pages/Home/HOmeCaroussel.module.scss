@@ -1,0 +1,33 @@
+//@import "../../styles/module/colors.module";
+@import "styles/module/mixins";
+@import "styles/module/colors.module";
+@import "styles/module/animations";
+
+.carousel{
+  margin: .5rem;
+  padding: .5rem;
+.carouselleft{
+  //font-size: 40px;
+  padding: 2rem 1rem;
+  margin: .5rem;
+  animation: message 1s linear forwards;
+ @media (max-width: $sm) {
+   padding: .2rem 0;
+   margin: .2rem 0;
+ }
+}
+
+  @include display_flex;
+  .foto{
+    margin:1.5rem 1rem;
+    transition: $transition;
+    @media (max-width: $sm) {
+      padding:.4rem .2rem;
+      margin:  .2rem;
+    }
+    &:hover{
+      transform: scale(1.1);
+    }
+  }
+
+}
