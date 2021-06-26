@@ -1,0 +1,64 @@
+@import "../../styles/module/colors.module";
+
+.card{
+   .item{
+     height: 35rem;
+     font-size: 1.2rem;
+     box-shadow: $light-shadow;
+     letter-spacing: $spacing;
+     //padding: .1rem;
+     margin: .1rem;
+     transition: $transition;
+     cursor: pointer;
+     &:hover{
+       box-shadow: $dark-shadow;
+     }
+     @media (max-width: $desktop){
+       height: 33rem;
+     }
+     @media (max-width: $tablet-bg){
+       height: 35rem;
+     }
+     @media (max-width: $tablet){
+       height: 35rem;
+     }
+     @media (max-width: $sm){
+       height: 34rem;
+     }
+     img{
+       height: 20rem;
+       @media (max-width: $desktop){
+         height: 15rem;
+       }
+       @media (max-width: $tablet-bg){
+         height: 21rem;
+       }
+       @media (max-width: $tablet){
+         height: 17rem;
+       }
+       @media (max-width: $sm){
+         height: 19rem;
+       }
+     }
+     .btn{
+       background-color: $mc-col;
+       color: $black;
+       border: 1px solid $light !important;
+       padding: .3rem .5rem;
+       display: inline-block;
+       margin-top: .75rem;
+       margin-right: 1rem;
+       letter-spacing: $spacing;
+       border-radius: $radius;
+       transition: $transition;
+       //box-shadow: $light-shadow;
+       //outline: none!important;
+       &:hover{
+         //box-shadow: $dark-shadow;
+         color: $white !important;
+         background: $mc-col !important;
+         outline: none;
+       }
+     }
+   }
+}

@@ -12,7 +12,6 @@ import Image from "next/image";
 const HomeInfo = (props) => {
 
     const Eva = require('../../public/img/sm/Eva.webp');
-    console.log(Eva)
     return <Jumbotron fluid className={classes.info}>
         <Container>
             <Row>
@@ -21,7 +20,7 @@ const HomeInfo = (props) => {
                         {/*Fixme nu merge hover*/}
                         {/*<OverlayTrigger overlay={<Tooltip id="tooltip">Eu sunt Eva!</Tooltip>}>*/}
                             <Image
-                                src={Eva} alt={eva}
+                                src={Eva} alt={eva} height={300} width={300}
                                 />
                         {/*</OverlayTrigger>*/}
                     </div>
