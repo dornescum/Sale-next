@@ -87,3 +87,20 @@
     transform: translateY(0px) scale(0.9);
   }
 }
+@keyframes contact-animation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes leave {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

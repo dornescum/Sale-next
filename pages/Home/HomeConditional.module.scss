@@ -1,0 +1,37 @@
+@import "../../styles/module/colors.module";
+@import "../../styles/module/animations";
+
+.bottom{
+  //font-size: 2rem;
+  margin: 1.5rem 1rem 1.5rem 1rem;
+  transition: var(--transition);
+  //animation: contact-animation 2s linear;
+  .btncontact {
+    background-color: $mc-col;
+    color: $black;
+    outline: none;
+    border: none;
+    transition: $transition;
+    box-shadow: $light-shadow;
+    margin-left: 1.2rem;
+    padding: .3rem 1rem;
+    border-radius: $radius;
+    &:hover {
+      box-shadow: $dark-shadow;
+      color: $white;
+    }
+  }
+  .contact {
+    font-size: 2rem;
+    margin: 1.5rem 1rem 1.5rem 1rem;
+    transition: $transition;
+    animation: contact-animation 2s linear;
+  }
+  .leave{
+    animation: contact-leave 5s ease-out;
+    transition: $transition;
+    animation-fill-mode: backwards;
+  }
+
+}
+
