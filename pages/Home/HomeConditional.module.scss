@@ -2,10 +2,8 @@
 @import "../../styles/module/animations";
 
 .bottom{
-  //font-size: 2rem;
   margin: 1.5rem 1rem 1.5rem 1rem;
   transition: var(--transition);
-  //animation: contact-animation 2s linear;
   .btncontact {
     background-color: $mc-col;
     color: $black;
@@ -32,6 +30,5 @@
     transition: $transition;
     animation-fill-mode: backwards;
   }
-
 }
 

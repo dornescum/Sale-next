@@ -1,5 +1,4 @@
 import React from 'react';
-// import './HOmeCaroussel.module.scss';
 import {Jumbotron, Container, Row, Col, Carousel} from "react-bootstrap";
 import classes from "./HOmeCaroussel.module.scss";
 import Image from "next/image";
@@ -8,7 +7,6 @@ import parcare from '../../public/img/sm/p-600.webp';
 import balcon from '../../public/img/sm/Balcon.webp';
 
 const HOmeCaroussel = () => {
-
     return <Jumbotron fluid className={classes.carousel}>
         <Container>
             <Row>
@@ -34,10 +32,7 @@ const HOmeCaroussel = () => {
                         <Image src={balcon} alt='cadastru-acte'  width={350} height={350} layout='responsive'/>
                     </div>
                 </Col>
-
             </Row>
-
-
         </Container>
     </Jumbotron>
 };

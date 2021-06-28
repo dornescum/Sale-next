@@ -3,6 +3,14 @@
 @import "styles/module/animations";
 
 .info{
+  margin: .5rem;
+  padding: .5rem;
+  box-shadow: $light-shadow;
+  border-radius: $radius;
+  transition: $transition;
+  &:hover{
+    box-shadow: $dark-shadow;
+  }
   .puppy{
     display: flex;
     justify-content: center;
@@ -54,8 +62,6 @@
   //}
   .mobilepresentation{
     display: none;
-    //padding: .9rem .6rem;
-    //margin: .3rem;
     animation: para-mobile 1s linear forwards;
     @media (max-width: $sm) {
       display: block;

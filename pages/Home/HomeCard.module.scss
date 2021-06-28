@@ -6,7 +6,6 @@
      font-size: 1.2rem;
      box-shadow: $light-shadow;
      letter-spacing: $spacing;
-     //padding: .1rem;
      margin: .1rem;
      transition: $transition;
      cursor: pointer;
@@ -24,6 +23,9 @@
      }
      @media (max-width: $sm){
        height: 34rem;
+     }
+     @media (max-width: $xs){
+       height: 36rem;
      }
      img{
        height: 20rem;
@@ -51,10 +53,7 @@
        letter-spacing: $spacing;
        border-radius: $radius;
        transition: $transition;
-       //box-shadow: $light-shadow;
-       //outline: none!important;
        &:hover{
-         //box-shadow: $dark-shadow;
          color: $white !important;
          background: $mc-col !important;
          outline: none;

@@ -4,7 +4,7 @@ import path from "path";
 import fs from "fs";
 import {Card, CardGroup} from "react-bootstrap";
 import Image from "next/image";
-
+import Head from "next/head";
 
 
 export const getStaticProps = async () => {
@@ -24,6 +24,14 @@ const Baie = (props) => {
         return item.name === "Baie"
     })
     return <ContentWrapper>
+        <Head>
+            <title>Next App Baie</title>
+            <meta name="description"
+                  content="Junior Front end developer, Javascript, Html5, Css3, Sccs, React js, Vue js"/>
+            <meta name="keywords" content="Next js"/>
+            <meta name="author" content="Mihai Dornescu"/>
+            <link rel="icon" href="/favicon.ico"/>
+        </Head>
         <BaieInfo/>
         <CardGroup className="home-card">
             {filteredData.map((item) => {

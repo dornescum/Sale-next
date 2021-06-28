@@ -1,4 +1,3 @@
-/*@import "colors.module.scss";*/
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 @import "Navbar.css";
 @import "Sidebar.css";
@@ -9,8 +8,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-family: 'Indie Flower' ! important;
-  background-color: #fff0f5 ;
-  /*font-size: 1.2rem;*/
+  background-color: #fff0f5 !important;
 }
 
 a {

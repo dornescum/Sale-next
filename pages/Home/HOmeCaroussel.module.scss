@@ -1,4 +1,3 @@
-//@import "../../styles/module/colors.module";
 @import "styles/module/mixins";
 @import "styles/module/colors.module";
 @import "styles/module/animations";
@@ -6,8 +5,13 @@
 .carousel{
   margin: .5rem;
   padding: .5rem;
+  box-shadow: $light-shadow;
+  border-radius: $radius;
+  transition: $transition;
+  &:hover{
+    box-shadow: $dark-shadow;
+  }
 .carouselleft{
-  //font-size: 40px;
   padding: .5rem 1rem;
   margin: .1rem;
   font-size: 1.2rem;

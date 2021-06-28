@@ -11,7 +11,6 @@ const HomeConditional=()=>{
             Contact
         </button>
         {open && <p className={classes.contact}>Pentru mai multe informații, vă rog să mă contactați pe numarul de telefon +40 756 058 966 sau pe adresa de email <span className='email'>dornescu@gmail.com</span>.</p>}
-        {/*Fixme*/}
         {!open && <p className={classes.leave}>{nothing}</p>}
     </div>
 
