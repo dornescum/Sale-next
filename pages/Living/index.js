@@ -31,7 +31,7 @@ const Living =(props)=>{
                         {/*<Card.Img variant="top"*/}
                         {/*          src={img} className='img-general'*/}
                         {/*/>*/}
-                        <Image src={img} width={650} height={650} alt={title}/>
+                        <Image src={img} width={650} height={650}  alt={title} />
                         <Card.Body>
                             <Card.Text>
                                 {desc}

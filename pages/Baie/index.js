@@ -18,8 +18,6 @@ export const getStaticProps = async () => {
     };
 }
 
-
-
 const Baie = (props) => {
     const {rooms} = props;
     const filteredData = rooms.filter((item) => {
@@ -32,9 +30,6 @@ const Baie = (props) => {
                 const {id, img, title, desc} = item;
                 return <div className="col-lg-6 col-sm-6 py-1" key={id}>
                     <Card className="home-card-item">
-                        {/*<Card.Img variant="top"*/}
-                        {/*          src={img} className='img-general'*/}
-                        {/*/>*/}
                         <Image src={img} width={650} height={650} alt={title}/>
                         <Card.Body>
                             <Card.Title>{title}</Card.Title>

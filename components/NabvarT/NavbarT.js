@@ -1,8 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import logo from "../../public/img/logo.svg";
-// import { FaBars} from "react-icons/fa";
-// import { HiOutlineX } from "react-icons/hi";
 import React, {useState} from "react";
 // import './navbarT.module.css';
 import { FaBars} from "react-icons/fa";
@@ -48,13 +46,13 @@ const NavbarT = () => {
                     </div>
                 {/*</div>*/}
             <ul className='sidelinks' onClick={showSidebar}>
-                <li className='sidelink'><Link href='/'><p className='route'>Acasa</p></Link></li>
-                <li className='sidelink'><Link href='/Living'><p className='route'>Camera de zi</p></Link></li>
-                <li className='sidelink'><Link href='/Dormitor'><p className='route'>Dormitor</p></Link></li>
-                <li className='sidelink'><Link href='/Bucatarie'><p className='route'>Bucatarie</p></Link></li>
-                <li className='sidelink'><Link href='/Balcon'><p className='route'>Balcon</p></Link></li>
-                <li className='sidelink'><Link href='/Baie'><p className='route'>Baie</p></Link></li>
-                <li className='sidelink'><Link href='/Parcare'><p className='route'>Parcare</p></Link></li>
+                <li className='sidelink' id='s1'><Link href='/'><p className='route'>Acasa</p></Link></li>
+                <li className='sidelink' id='s2'><Link href='/Living'><p className='route'>Camera de zi</p></Link></li>
+                <li className='sidelink' id='s3'><Link href='/Dormitor'><p className='route'>Dormitor</p></Link></li>
+                <li className='sidelink' id='s4'><Link href='/Bucatarie'><p className='route'>Bucatarie</p></Link></li>
+                <li className='sidelink' id='s5'><Link href='/Balcon'><p className='route'>Balcon</p></Link></li>
+                <li className='sidelink' id='s6'><Link href='/Baie'><p className='route'>Baie</p></Link></li>
+                <li className='sidelink' id='s7'><Link href='/Parcare'><p className='route'>Parcare</p></Link></li>
             </ul>
         </div>
 

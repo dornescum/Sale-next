@@ -1,0 +1,219 @@
+{
+  "rooms" : [
+    {
+      "name": "Baie",
+      "title": "Baie",
+      "path": "/",
+      "desc": "Masină de spălat Whirpool 2020",
+      "img": "/img/baie/Baie1-1920.webp",
+      "id": 1
+    },
+    {
+      "name": "Baie",
+      "title": "Baie",
+      "path": "/",
+      "desc": "Bateriile Hansgrohe",
+      "img": "/img/baie/Baie3-1920.webp",
+      "id": 2
+    },
+    {
+      "name": "Baie",
+      "title": "Baie",
+      "path": "/",
+      "desc": "",
+      "img": "/img/baie/Baie4-1920.webp",
+      "id": 3
+    },
+    {
+      "name": "Baie",
+      "title": "Baie",
+      "path": "/",
+      "desc": "",
+      "img": "/img/baie/Baie5-1920.webp",
+      "id": 4
+    },
+    {
+      "name": "Balcon",
+      "title": "Balcon",
+      "path": "/",
+      "desc": "Poți să bei in LINISTE o cafea",
+      "img": "/img/balcon/Balcon-1.webp",
+      "id": 5
+    },
+    {
+      "name": "Balcon",
+      "title": "Balcon",
+      "path": "/",
+      "desc": "Masuță Ikea rabatabilă",
+      "img": "/img/balcon/Balcon-2.webp",
+      "id": 6
+    },
+    {
+      "name": "Balcon",
+      "title": "Balcon",
+      "path": "/",
+      "desc": "",
+      "img": "/img/balcon/Balcon-3.webp",
+      "id": 7
+    },
+    {
+      "name": "Balcon",
+      "title": "Balcon",
+      "path": "/",
+      "desc": "",
+      "img": "/img/balcon/Balcon-4.webp",
+      "id": 8
+    },
+    {
+      "name": "Bucatarie",
+      "title": "Bucatarie",
+      "path": "/",
+      "desc": "Sistem de filtrare a apei",
+      "img": "/img/bucatarie/Buc-1-bg.webp",
+      "id": 9
+    },
+    {
+      "name": "Bucatarie",
+      "title": "Bucatarie",
+      "path": "/",
+      "desc": "Frigider Beko",
+      "img": "/img/bucatarie/Buc-3-bg.webp",
+      "id": 10
+    },
+    {
+      "name": "Bucatarie",
+      "title": "Bucatarie",
+      "path": "/",
+      "desc": "Cuptor cu microunde Gorenje",
+      "img": "/img/bucatarie/Buc-4-bg.webp",
+      "id": 11
+    },
+    {
+      "name": "Bucatarie",
+      "title": "Bucatarie",
+      "path": "/",
+      "desc": "Baterie  Hansgrohe",
+      "img": "/img/bucatarie/Buc-2-bg.webp",
+      "id": 12
+    },
+    {
+      "name": "Dormitor",
+      "title": "Dormitor",
+      "path": "/",
+      "desc": "Intrare din hol",
+      "img": "/img/dormitor/hol-bg.webp",
+      "id": 13
+    },
+    {
+      "name": "Dormitor",
+      "title": "Dormitor",
+      "path": "/",
+      "desc": "Eva!",
+      "img": "/img/dormitor/Dormitor-6.webp",
+      "id": 14
+    },
+    {
+      "name": "Dormitor",
+      "title": "Dormitor",
+      "path": "/",
+      "desc": "",
+      "img": "/img/dormitor/Dormitor-3.webp",
+      "id": 15
+    },
+    {
+      "name": "Dormitor",
+      "title": "Dormitor",
+      "path": "/",
+      "desc": "",
+      "img": "/img/dormitor/Dormitor-2.webp",
+      "id": 16
+    },
+    {
+      "name": "Dormitor",
+      "title": "Dormitor",
+      "path": "/",
+      "desc": "",
+      "img": "/img/dormitor/Dormitor-1.webp",
+      "id": 131
+    },
+    {
+      "name": "Dormitor",
+      "title": "Dormitor",
+      "path": "/",
+      "desc": "",
+      "img": "/img/dormitor/Dormitor-8.webp",
+      "id": 141
+    },
+    {
+      "name": "Dormitor",
+      "title": "Dormitor",
+      "path": "/",
+      "desc": "Evident calculatorul si tot ce este pe birou nu este de vanzare",
+      "img": "/img/dormitor/Dormitor-5.webp",
+      "id": 151
+    },
+    {
+      "name": "Dormitor",
+      "title": "Dormitor",
+      "path": "/",
+      "desc": "rulouri Ikea",
+      "img": "/img/dormitor/Dormitor-7.webp",
+      "id": 161
+    },
+    {
+      "name": "Living",
+      "title": "Camera de zi",
+      "path": "/",
+      "desc": "Fotoliul de la Jysk si lampa creaza un colt minunat pt citit.\n",
+      "img": "/img/living/Living-1-bg.webp",
+      "id": 17
+    },
+    {
+      "name": "Living",
+      "title": "Camera de zi",
+      "path": "/",
+      "desc": "Televizor Sony 4k / 123inch (2020)",
+      "img": "/img/living/Living-2-bg.webp",
+      "id": 18
+    },
+    {
+      "name": "Living",
+      "title": "Camera de zi",
+      "path": "/",
+      "desc": "Masa solida cu 2 scaune asortate, Ikea, loc ideal pt servit masa.\n",
+      "img": "/img/living/Living-3-bg.webp",
+      "id": 19
+    },
+    {
+      "name": "Living",
+      "title": "Camera de zi",
+      "path": "/",
+      "desc": "Canapea fixa 2 locuri, completeaza spatiul pt vizionat filme.",
+      "img": "/img/living/Living-4-bg.webp",
+      "id": 20
+    },
+    {
+      "name": "Parcare",
+      "title": "Parcare",
+      "path": "/",
+      "desc": "Parcare langa scara blocului",
+      "img": "/img/parcare/parcare-1.webp",
+      "id": 21
+    },
+    {
+      "name": "Parcare",
+      "title": "Parcare",
+      "path": "/",
+      "desc": "Sistem nou de blocare a parcari",
+      "img": "/img/parcare/parcare-2.webp",
+      "id": 22
+    },
+    { "title": "Eva",
+      "name": "Eva",
+      "img": "/img/Eva.webp",
+      "id": 23,
+      "desc":"Are 2 camere si este situat intr un bloc construit in 2011, situat intr o zonă linistită din Sectorul 3, cu multiple puncte de interes precum scoli, gradinite, supermarketuri si mijloace de transport in comun in apropire. Stația de metrou 1 Decembrie este la distanta de maxim 10 min de mers pe jos, 900 m. \u2028 Apartamentul este amenajat modern, complet echipat, inclusive centrala termica proprie, fiind contorizat independent la toate utilitatile."
+    }
+
+  ]
+}

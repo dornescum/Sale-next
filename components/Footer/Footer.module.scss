@@ -1,0 +1,33 @@
+@import "../../styles/module/colors.module";
+@import "styles/module/mixins";
+
+.footer{
+  position: sticky;
+  bottom: 10px;
+  //font-family: var(--font);
+  display: flex;
+  justify-content: flex-end;
+  .button{
+    //color: $black;
+    background: $mc-col;
+    border: 1px solid $light;
+    padding: 0.3rem 0.5rem;
+    display: inline-block;
+    margin-top: 0.75rem;
+    margin-right: 1rem;
+    /*text-transform: uppercase;*/
+    letter-spacing: $spacing;
+    border-radius: $radius;
+    -webkit-transition: $transition;
+    -o-transition: $transition;
+    transition: $transition;
+    /*width: 100px;*/
+    outline: none;
+    /*animation: btn-footer 20s infinite;*/
+    /*animation-fill-mode: forwards;*/
+   &:hover{
+     background: $light;
+     color: $mc-col;
+   }
+  }
+}
